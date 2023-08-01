@@ -1,0 +1,1433 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 13:16:50] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 13:16:51] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 13:17:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 13:26:41] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 13:43:15] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:spreading:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 14, in index
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:20:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:20:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:23:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:23:58] "[33mGET /spreading-dataset.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:spreading:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 14, in index
+    return render_template("templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:36:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:spreading:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 14, in index
+    return render_template("templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:38:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:spreading:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 14, in index
+    return render_template("templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:39:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:spreading:Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 14, in index
+    return render_template("templates/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:39:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:42:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:42:52] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:43:00] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:43:00] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:48:56] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:48:56] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:06] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:06] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:37] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:38] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:58] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:51:58] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:52:12] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:52:12] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:52:14] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:52:14] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:53:00] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:53:00] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:53:14] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jul/2023 14:53:14] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 09:54:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 09:54:13] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 09:54:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:40] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:40] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:40] "[33mGET /favicon-32x32.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:40] "[33mGET /favicon-16x16.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:41] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:41] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:43] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:43] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:43] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:53] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:53] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:07:53] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:34] "GET /?fileInput= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:34] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:34] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:41] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:41] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:15:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:15] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:15] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:15] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:21] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:21] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:19:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:31:04] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:31:04] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:31:04] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:34:42] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:34:42] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:34:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:38:45] "GET /?fileInput=sample.mp3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:38:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:38:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:38:49] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:23] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:25] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:27] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:32] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:32] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+ERROR:spreading:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 31, in upload_file
+    uploaded_file.save(file_path)
+  File "/opt/homebrew/lib/python3.11/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/tiffanywang/Documents/spreading/sample.mp3'
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:41:39] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:42:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:42:18] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:42:18] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+ERROR:spreading:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 31, in upload_file
+    uploaded_file.save(file_path)
+  File "/opt/homebrew/lib/python3.11/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/tiffanywang/Documents/spreading/sample.mp3'
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:42:23] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:22] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:25] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:34] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:38] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:39] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=6011 request_id=54bb85c0ecd609b47358c9c1d1875c05 response_code=200
+DEBUG:root:Lesson 1, where are you from? Hello. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. Hello. Hi. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. How are you? Good. Do you speak English? Yes. I'm from New York. Nice to meet you. Hi. I'm good, how are you? A little. Are you American? Where are you from? Nice to meet you.
+
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 10:52:55] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 15:32:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 15:32:00] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 15:32:00] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 15:32:00] "[33mGET /favicon-32x32.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 15:32:00] "[33mGET /favicon-16x16.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:20:49] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:20:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:23:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:23:31] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:23:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:23:57] "POST /upload HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=6332 request_id=56a1c98813ff5a8733ac5f084c735410 response_code=200
+DEBUG:root:Lesson 1, where are you from? Hello. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. Hello. Hi. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. How are you? Good. Do you speak English? Yes. I'm from New York. Nice to meet you. Hi. I'm good, how are you? A little. Are you American? Where are you from? Nice to meet you.
+
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:24:00] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:27] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:28] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:36] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 16:27:44] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 21:59:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 21:59:52] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 21:59:53] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 21:59:53] "[33mGET /favicon-32x32.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 21:59:53] "[33mGET /favicon-16x16.png HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=7025 request_id=314005ae8acf0353d765d4db97ccc1d8 response_code=200
+DEBUG:root:Lesson 1, where are you from? Hello. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. Hello. Hi. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. How are you? Good. Do you speak English? Yes. I'm from New York. Nice to meet you. Hi. I'm good, how are you? A little. Are you American? Where are you from? Nice to meet you.
+
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:26] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:26] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:00:38] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:13] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:13] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:35] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:38] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:38] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:10:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:12:14] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:38] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:38] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:40] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:13:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:14:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:14:05] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:14:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+ERROR:spreading:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 36, in upload_file
+    file_path = os.path.join(app.config['UPLOAD_FOLDER'], audio_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 90, in join
+  File "<frozen genericpath>", line 152, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'FileStorage'
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:14:15] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:22:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:22:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:22:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+ERROR:spreading:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 40, in upload_file
+    file_name.save(file_path)
+    ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'save'
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:22:56] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:27:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:27:40] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:27:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=6332 request_id=1a23eeeb14cb35d88d914a7546e632e1 response_code=200
+DEBUG:root:Lesson 1, where are you from? Hello. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. Hello. Hi. Hi. How are you? I'm good, how are you? Good. Do you speak English? A little. Are you American? Yes. Where are you from? I'm from New York. Nice to meet you. Nice to meet you, too. Hello. How are you? Good. Do you speak English? Yes. I'm from New York. Nice to meet you. Hi. I'm good, how are you? A little. Are you American? Where are you from? Nice to meet you.
+
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:27:56] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:34:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:34:09] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2023 22:34:09] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:48:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:48:30] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:48:30] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:48:30] "[33mGET /favicon-32x32.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:48:30] "[33mGET /favicon-16x16.png HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=14535 request_id=fe7159319a9a5e79fe5a9f7e4aac2404 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it. Stop it. That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox.
+
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:52:11] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 16:52:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:05:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:05:39] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:05:39] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=18890 request_id=3814847f87f28c81aebf5d366211855e response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:08:23] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:15:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:15:21] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:15:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/v1/audio/transcriptions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10746fe10>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)")': /v1/audio/transcriptions
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.openai.com:443
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/v1/audio/transcriptions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10747c990>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)")': /v1/audio/transcriptions
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (3): api.openai.com:443
+ERROR:spreading:Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x10747d0d0>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/audio/transcriptions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10747d0d0>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/audio/transcriptions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10747d0d0>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 43, in upload_file
+    transcription = transcribe_file(file_path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tiffanywang/Documents/spreading/spreading.py", line 55, in transcribe_file
+    transcription = openai.Audio.transcribe(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/openai/api_resources/audio.py", line 65, in transcribe
+    response, _, api_key = requestor.request("post", url, files=files, params=data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/openai/api_requestor.py", line 609, in request_raw
+    raise error.APIConnectionError(
+openai.error.APIConnectionError: Error communicating with OpenAI: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/audio/transcriptions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10747d0d0>: Failed to resolve 'api.openai.com' ([Errno 8] nodename nor servname provided, or not known)"))
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:15:43] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 22:28:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 22:28:53] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 22:28:53] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=19237 request_id=57350c0c579deb4faea796a7ea11f416 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 22:35:15] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 00:17:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 00:17:13] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 00:17:13] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=18673 request_id=635a679af0bc48c4355b3b6dca9266b6 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 00:18:11] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:31:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:31:00] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:31:00] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=18715 request_id=9de2eebaec3fa9737995a5393f544a12 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:31:30] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:37:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:37:38] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:37:38] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=18409 request_id=c47ac15fb08d88f4dc163bf36a234937 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:38:24] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:40:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:40:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:40:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=18451 request_id=5de8889724b10e538548fb2c3ceb692f response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:41:14] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:28] "[33mGET /background-img-1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:28] "[33mGET /background-img-2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:28] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:28] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:41] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:41] "[33mGET /background-img-2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:41] "[33mGET /background-img-1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:34:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:31] "[33mGET /background-img-2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:31] "[33mGET /background-img-1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:31] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:33] "[33mGET /background-img-1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:33] "[33mGET /background-img-2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:33] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:33] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:58] "[33mGET /spreading/static/background-img-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:58] "[33mGET /spreading/static/background-img-2.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:58] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:37:58] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:50:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:50:44] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:50:44] "[33mGET /spreading/static/background-img-1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:50:44] "[33mGET /spreading/static/background-img-2.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:50:44] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:51:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:51:00] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:51:00] "GET /static/background-img-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:51:00] "GET /static/background-img-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:51:00] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:11] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:11] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:11] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:35] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:35] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:35] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:35] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:37] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:37] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:37] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:55] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:55] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:55] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:58:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:13] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:13] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:13] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:43] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:43] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 14:59:43] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:45] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:45] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:59] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:59] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:04:59] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:19] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:19] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:19] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:29] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:29] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:29] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:56] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:56] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:56] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:58] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:58] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:05:58] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:03] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:03] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:03] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:11] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:11] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:36] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:36] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:59] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:06:59] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:07:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:07:12] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:07:13] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:20] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:20] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:42] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:08:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:14:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:14:58] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:14:58] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:14:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:15:00] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:15:00] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:52] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:52] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:54] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:16:54] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:41] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:42] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:18:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:19:04] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:19:04] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:21] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:51] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:22:51] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:23:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:23:29] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:23:29] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:37] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:57] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:25:58] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:26:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:26:28] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:26:28] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:19] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:19] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:20] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:32:20] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:19] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:19] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:20] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:20] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:40] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:52] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 17:54:52] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:00:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:00:50] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:00:50] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:01:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:01:45] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:01:45] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:21] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:49] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:03:49] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:04:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:04:31] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:04:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:42] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:53] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:15:53] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:50:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:50:58] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:50:58] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:12] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:12] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:13] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:51:13] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:52:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:52:37] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:52:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:11] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:35] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:58:35] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:10] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:10] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:18] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:18] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:40] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:59] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 18:59:59] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:00:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:00:11] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:00:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:08] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:08] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:14] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:14] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:16] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:16] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:23] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:23] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:28] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:28] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:35] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:35] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:43] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:02:43] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:06:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:06:53] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:06:53] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:07:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:07:57] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:07:57] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:04] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:04] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:51] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:09:51] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:10:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:10:01] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:10:01] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:04] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:04] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:05] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:48] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:13:48] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:40] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:41] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:14:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:05] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:19] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:19] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:26] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:26] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:27] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:27] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:37] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:15:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:22] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:22] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:24] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:24] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:55] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:17:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:21:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:21:18] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:21:18] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:15] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:15] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:16] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:34:16] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:36:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:36:47] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:36:47] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:37:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:37:00] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:37:01] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:38:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:38:35] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:38:35] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:40:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:40:55] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:40:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:21] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:51] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:44:51] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:49] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:49] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:52] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:45:52] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:08] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:08] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:43] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:46:43] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:12] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:12] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:21] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:21] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:23] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 19:48:23] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:08:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:08:14] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:08:14] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:09:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:09:55] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:09:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:11:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:11:55] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:11:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:02] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:02] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:23] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:23] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:24] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:24] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:31] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:39] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:13:39] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:14:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:14:03] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:14:03] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:04] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:04] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:29] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:29] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:41] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:41] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:42] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:55] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:15:55] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:48] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:48] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:59] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:16:59] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:09] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:10] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:11] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:17:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:37] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:38] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 20:18:38] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:44] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:44] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:46] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:46] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:48] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:16:48] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:01] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:01] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:02] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:02] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:47] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:47] "GET /static/background-img-1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:17:47] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:05] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:05] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:06] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:06] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:06] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:07] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:07] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:07] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:10] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:10] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:10] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:23] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:23] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:23] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:37] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:37] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:37] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:54] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:54] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:18:54] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:30] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:30] "[36mGET /static/background-img-1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:30] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:54] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:54] "GET /static/background-img-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:19:54] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:05] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:05] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:06] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:06] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:06] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:15] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:15] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:15] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:31] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:31] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:44] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:44] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:20:44] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:02] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:02] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:02] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:06] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:06] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:06] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:15] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:15] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:15] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:26] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:26] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:26] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:42] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:42] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:42] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:44] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:44] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:44] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:45] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:45] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:46] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:59] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:59] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:21:59] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:22:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:22:16] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:22:16] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:22:16] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:02] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:02] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:02] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:09] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:09] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:09] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:11] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:11] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:24] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:24] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:23:24] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:05] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:05] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:05] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:25] "GET /static/spreading-dataset.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:25] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:25] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:46] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:46] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:46] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:48] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:48] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:46:48] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:47:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:47:15] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:47:15] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 21:47:15] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:16] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:16] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:16] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:19] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:19] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:19] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:31] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:31] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:10:31] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=19029 request_id=a6a9851b4fbc23c2c5a5c24ea8f59e32 response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:11:10] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:11:10] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:11:10] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:11:10] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:04] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:06] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:11] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:11] "GET /static/background-img-2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:11] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/audio/transcriptions
+DEBUG:openai:api_version=None data="{'model': 'whisper-1', 'response_format': 'text'}" message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/audio/transcriptions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/audio/transcriptions processing_ms=19179 request_id=4017d1aff4b2db8abe20fed2d543ec1f response_code=200
+DEBUG:root:Fox in Socks by Dr. Seuss Take it slowly. This book is dangerous. Fox, socks. Box, knocks. Knocks in box. Fox in socks. Knocks on fox in socks in box. Socks on knocks and knocks in box. Fox in socks on box on knocks. Chicks with bricks come. Chicks with blocks come. Chicks with bricks and blocks and clocks come. Look, sir. Look, sir. Mr. Knocks, sir. Let's do tricks with bricks and blocks, sir. Let's do tricks with chicks and clocks, sir. First I'll make a quick trick brick stack. Then I'll make a quick trick block stack. You can make a quick trick chick stack. You can make a quick trick clock stack. And here's a new trick, Mr. Knocks. Socks on chicks and chicks on fox. Fox on clocks on bricks and blocks. Bricks and blocks on knocks on box. Now we come to ticks and tocks, sir. Try to say this, Mr. Knocks, sir. Clocks on fox tick. Clocks on knocks tock. Six sick bricks tick. Six sick chicks tock. Please, sir. I don't like this trick, sir. My tongue isn't quick or slick, sir. I get all those ticks and clocks, sir, mixed up with the chicks and tocks, sir. I can't do it, Mr. Fox, sir. I'm so sorry, Mr. Knocks, sir. Here's an easy game to play. Here's an easy thing to say. New socks, two socks. Whose socks? Sue's socks. Who sews whose socks? Sue sews Sue's socks. Who sees who sew whose new socks, sir? You see Sue sew Sue's new socks, sir. That's not easy, Mr. Fox, sir. Who comes? Crow comes. Slow Joe Crow comes. Who sews crow's clothes? Sue sews crow's clothes. Slow Joe Crow sews whose clothes? Sue's clothes. Sue sews socks of fox and socks now. Slow Joe Crow sews knocks and box now. Sue sews rose on Slow Joe Crow's clothes. Fox sews hose on Slow Joe Crow's nose. Mr. Fox, I hate this game, sir. This game makes my tongue quite lame, sir. Mr. Knocks, sir, what a shame, sir. We'll find something new to do now. Here is lots of new blue goo now. New goo, blue goo. Gooey gooey. Blue goo, new goo. Gluey gluey. Gooey goo for chewy chewing. That's what that goo goose is doing. Do you choose to chew goo too, sir? If sir you sir choose to chew sir with the goo goose chew sir, do, sir. Mr. Fox, sir, I won't do it. I can't say it. I won't chew it. Very well, sir. Step this way. We'll find another game to play. Bim comes, Ben comes. Bim brings Ben broom. Ben brings Bim broom. Ben bends Bim's broom. Bim bends Ben's broom. Bim's bends. Ben's bends. Ben's bent broom breaks. Bim's bent broom breaks. Ben's bend. Bim's bend. Big bends. Pig bends. Bim and Ben lead bends with brooms. Ben's bend bangs and Bim's bend booms. Pig bend boom bend. Big bend broom bend. My poor mouth can't say that. No, sir. My poor mouth is much too slow, sir. Well then, bring your mouth this way. I'll find it something it can say. Luke Luck likes lakes. Luke's duck likes lakes. Luke Luck licks lakes. Luke's duck licks lakes. Duck takes licks in lakes Luke Luck likes. Luke Luck takes licks in lakes Duck likes. I can't blab such blibber blubber. My tongue isn't made of rubber. Mr. Knox now, come now, come now. You don't have to be so dumb now. Try to say this, Mr. Knox, please. Through three cheese trees, three free fleas flew. While these fleas flew, Freezy Breeze blew. Freezy Breeze made these three trees freeze. Freezy Trees made these cheese trees freeze. That's what made these three free fleas sneeze. Stop it! Stop it! That's enough, sir. I can't say such silly stuff, sir. Very well then, Mr. Knox, sir. Let's have a little talk about Tweedle Beetles. What do you know about Tweedle Beetles? Well... And when they battle in a puddle, it's a Tweedle Beetle puddle battle. And when Tweedle Beetles battle with paddles in a puddle, they call it a Tweedle Beetle puddle paddle battle. And when beetles battle beetles in a puddle paddle battle, and the beetle battle puddle is a puddle in a bottle, they call this a Tweedle Beetle bottle puddle paddle battle muddle. And when beetles fight these battles in a bottle with their paddles and the bottle's on a poodle and the poodle's eating noodles, they call this a muddle puddle Tweedle poodle beetle noodle bottle paddle battle. And... Now wait a minute, Mr. Socks Fox. When a fox is in a bottle where their Tweedle Beetles battle with their paddles in a puddle on a noodle-eating poodle, this is what they call... A Tweedle Beetle noodle poodle bottled paddled muddled duddled fuddled wuddled Fox and Socks, sir. Fox and Socks, our game is done, sir. Thank you for a lot of fun, sir. Now is your tongue numb?
+
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:40] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:40] "[36mGET /static/spreading-dataset.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:40] "[36mGET /static/background-img-2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 23:44:40] "[33mGET /site.webmanifest HTTP/1.1[0m" 404 -

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Spreading dataset </title>
+        <link rel= "stylesheet" href="{{ url_for('static', filename='spreading-dataset.css') }}">
+
+        <!-- font import -->
+
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Inter&display=swap" rel = "stylesheet">
+
+        <!-- favicon import -->
+
+        <link rel = "apple-touch-icon" sizes = "180x180" href = "/apple-touch-icon.png">
+        <link rel = "icon" type = "image/png" sizes = "32x32" href = "/favicon-32x32.png">
+        <link rel = "icon" type="image/png" sizes = "16x16" href = "/favicon-16x16.png">
+        <link rel = "manifest" href = "/site.webmanifest">
+        <link rel = "mask-icon" href = "/safari-pinned-tab.svg" color = "#5bbad5">
+        <meta name = "msapplication-TileColor" content = "#da532c">
+        <meta name = "theme-color" content = "#ffffff">
+    </head>
+    <body>
+        <div class = "caption"> Spread like a pro: Master the art of spreading with our debater's toolkit </div>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <img class = "background" src = "/static/background-img-2.png" style = "position: absolute; top: 250px; left: 150px">
+        <div class = "vertical-line"> </div>
+
+        <form action = "/upload" method = "post" enctype = "multipart/form-data" id = "uploadForm">
+            <div class = "box-container">
+                <div class = "box-one">
+                    <p class = "text-one"> Upload an audio file </p>
+                    <input type = "file" id = "fileInput" name = "file">
+                </div>
+                <div class = "box-two">
+                    <p class = "text-two"> Upload a text file </p>
+                    <input type = "file" id = "fileInputTwo" name = "textFile">
+                </div>
+                <div class = "box-three">
+                    <button type = "submit"> Upload </button>
+                    {% if result %}
+                    <p class = "text-three"> {{ result }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </form>
+
+        
+    </body>
+</html>
